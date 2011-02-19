@@ -1,0 +1,187 @@
+#search_overlay_wrapper_wrapper,
+#search_overlay_wrapper,
+#search_overlay,
+#search_title,
+.search_loader_img,
+#search_overlay_header,
+#search_overlay_footer,
+#search_overlay_ui,
+.search_overlay_ui_col,
+.search_overlay_ui_row_last,
+#search_results_table,
+#search_results_element,
+#search_results,
+#search_results td, #search_results tr,
+#search_results td .title{
+	border: 0px solid #DDDDDD !important;
+	border-collapse: collapse !important;
+	cursor: auto !important;
+	font-size: 12px !important;
+	height: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: auto;
+}
+#search_overlay_wrapper_wrapper{
+	position: fixed;
+	visibility: visible;
+	display: block;
+	z-index: 1 !important;
+	/*
+	-moz-border-radius: 5px !important;
+	background: #FFFFFF !important;
+	*/
+	padding: 4px !important;
+}
+#search_overlay_wrapper{
+	background: #FFFFFF !important;
+	border: 1px solid #D3D3D3 !important;
+}
+#search_overlay{
+	background: url("sprites.png") repeat-x scroll 0 -1950px #D3D3D3 !important;
+	margin: 4px !important;
+	padding: 5px !important;
+	position: relative;
+	z-index: 1 !important;
+}
+#search_title{
+	border: 0px !important;
+	color: #000000;
+	font: bold 14px Arial,Helvetica,Tahoma,Verdana,Sans-Serif !important;
+	height: auto;
+	margin: 0px 0px 5px 0px !important;
+	border-bottom: 1px solid #EEEEEE !important;
+	cursor: move !important;
+	padding: 3px 3px 8px !important;
+	position: relative;
+}
+.search_loader_img{
+	background-image: url("ajax-loader.gif") !important;
+	position: relative !important;
+	height: 16px !important;
+	width: 16px !important;
+}
+#search_overlay_header, #search_overlay_footer{
+	height: 26px;
+	text-align: right !important;
+	margin-top:4px !important;
+}
+#search_input{
+	-moz-border-radius: 0px !important;
+	width:396px;
+	border:1px solid #EEEEEE !important;
+	border-collapse: separate !important;
+	cursor: default !important;
+	padding: 6px 0 !important;
+	text-align: center !important;
+	color:#9E9E9E;
+}
+#search_results_table{
+	overflow: auto !important;
+	overflow-x:hidden !important;
+	padding: 5px !important;
+}
+#search_results_wrapper{
+	margin-top: 10px !important;
+	padding: 5px !important;
+	/*background-color: #EBEBEB !important;*/
+	overflow: auto !important;
+}
+
+#search_results_element{
+	position: relative;
+	overflow-x: hidden !important;
+	overflow-y: auto !important;
+	height: 300px;
+	width: 610px;
+	border-style: solid solid none !important;
+}
+#search_results{
+	border:0px !important;
+	width: 100% !important;
+	margin: auto !important;
+}
+#search_results td, #search_results tr {
+	/*border:1px solid #EEEEEE !important;*/
+	border:0px !important;
+	overflow:auto !important;
+}
+.search_results_result{
+	height:96px;
+	width:100%;
+	background: url("sprites.png") repeat-x scroll 0 -1952px #D3D3D3;
+	margin-bottom:5px;
+	cursor:pointer !important;
+	border: 2px solid transparent;
+}
+.search_results_result:hover{
+	background-color: #BBBEBB;
+	border: 2px solid #4297D7;
+}
+#search_close_button{
+	position: absolute;
+	top: 7px !important;
+	right: 5px !important;
+	padding: 0px !important;
+}
+#search_overlay_button_history{
+	margin-right: 30px !important;
+}
+#search_overlay_button_reload{
+	margin-right: 30px !important;
+}
+#search_overlay_button_cancel{
+	float: right;
+}
+.ui-widget-header, .ui-state-error, .ui-state-highlight{
+	display: block;
+	padding: 4px !important;
+}
+.ui-dialog{
+	font-size: 12px !important;
+}
+.ui-dialog, .ui-dropshadow{
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);  
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 10px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=8, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=8, Direction=135, Color='#000000');
+}
+.ui-search-loading { background: white url('ajax-loader.gif') right center no-repeat; }
+.ui-autocomplete-loading { background: white url('ajax-loader.gif') right center no-repeat; }
+/* Selectmenu
+----------------------------------*/
+.ui-selectmenu-menu li a, .ui-selectmenu-status { padding: 0.3em 2em; }
+body a.customicons { height: 2.8em;}
+body .customicons li a, body a.customicons span.ui-selectmenu-status { line-height: 2em; padding-left: 30px !important; }
+option.css-avatar { background-repeat: no-repeat !important; padding-left: 20px; }
+a.avatar-big { height: 5em; }
+.avatar-big .ui-selectmenu-item-icon { height: 50px; width: 50px; }		
+.ui-selectmenu-menu li.avatar-big a, a.avatar-big span.ui-selectmenu-status { padding-left: 5em !important; height: 50px; }
+.ui-selectmenu { display: inline-block; position: relative; height: 2.2em; text-decoration: none; zoom: 1; }
+.ui-selectmenu-icon { position:absolute; right:6px; margin-top:-8px; top: 50%; }
+.ui-selectmenu-menu { padding:0; margin:0; list-style:none; position:absolute; top: 0; visibility: hidden; overflow: auto; height: auto !important; width: auto !important; z-index: 1005;} /* z-index: 1005 to make selectmenu work with dialog */
+.ui-selectmenu-open { visibility: visible; }
+.ui-selectmenu-menu-popup { margin-top: -1px; }
+.ui-selectmenu-menu-dropdown { }
+.ui-selectmenu-menu li { padding:0; margin:0; display: block; border: 1px dotted transparent; font-weight: normal !important; }
+.ui-selectmenu-menu li a,.ui-selectmenu-status, .ui-selectmenu-hidden { line-height: 1.4em; display: block; padding: .405em 1em; outline:none; text-decoration:none; }
+.ui-selectmenu-menu li.ui-selectmenu-hasIcon a,
+.ui-selectmenu-hasIcon .ui-selectmenu-status { padding-left: 20px; position: relative; margin-left: 5px; }
+.ui-selectmenu-menu li .ui-icon, .ui-selectmenu-status .ui-icon { position: absolute; top: 1em; margin-top: -8px; left: 0; }
+.ui-selectmenu-status, .ui-selectmenu-hidden { line-height: 1.4em; }
+.ui-selectmenu-open li.ui-selectmenu-item-focus a { }
+.ui-selectmenu-open li.ui-selectmenu-item-selected { }
+.ui-selectmenu-menu li span,.ui-selectmenu-status span { display:block; margin-bottom: .2em; }
+.ui-selectmenu-menu li .ui-selectmenu-item-header { font-weight: bold; }
+.ui-selectmenu-menu li .ui-selectmenu-item-content { }
+.ui-selectmenu-menu li .ui-selectmenu-item-footer { opacity: .8; }
+/* for optgroups */
+.ui-selectmenu-menu .ui-selectmenu-group { font-size: 1em; }
+.ui-selectmenu-menu .ui-selectmenu-group .ui-selectmenu-group-label { line-height: 1.4em; display:block; padding: .6em .5em 0; font-weight: bold; }
+.ui-selectmenu-menu .ui-selectmenu-group ul { margin: 0; padding: 0; }
+/* IE6 workaround (dotted transparent borders) */
+* html .ui-selectmenu-menu li { border-color: pink; filter:chroma(color=pink); width:100%; }
+* html .ui-selectmenu-menu li a { position: relative }

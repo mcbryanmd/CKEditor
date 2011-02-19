@@ -1,0 +1,229 @@
+#search_overlay_wrapper_wrapper,
+#search_overlay_wrapper,
+#search_overlay,
+#search_title,
+#search_close_button,
+.search_loader_img,
+#search_overlay_header,
+#search_overlay_footer,
+#search_overlay_ui,
+.search_overlay_ui_col,
+.search_overlay_ui_row_first,
+.search_overlay_ui_row_last,
+#search_input,
+#search_results_table,
+#search_results_wrapper,
+#search_results_element,
+#search_results,
+#search_results td, #search_results tr,
+#search_results td .title,
+.search_overlay_button,
+.search_overlay_button_cancel,
+.search_overlay_button_span{
+	background: none repeat scroll 0 0 transparent !important;
+	border: 0px solid #DDDDDD !important;
+	border-collapse: collapse !important;
+	color: #000000;
+	cursor: auto !important;
+	font: 12px Arial,Helvetica,Tahoma,Verdana,Sans-Serif !important;
+	height: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+	text-align: left !important;
+	text-decoration: none !important;
+	vertical-align: baseline !important;
+	white-space: nowrap !important;
+	width: auto;
+}
+#search_overlay_wrapper_wrapper{
+	display: none;
+	visibility: inherit;
+}
+#search_overlay_wrapper{
+	position: fixed;
+	left:50%;
+	top:50%;
+	margin-left:-317px !important;
+	margin-top:-213px !important;
+	visibility: visible;
+	display: block;
+	z-index: 10010 !important;
+	-moz-border-radius: 5px !important;
+	background: #FFFFFF !important;
+	border: 1px solid #D3D3D3 !important;
+	padding: 4px !important;
+}
+#search_overlay{
+	-moz-border-radius: 5px !important;
+	/*background-color: #FFFFFF !important;*/
+	background: url("sprites.png") repeat-x scroll 0 -1950px #D3D3D3 !important;
+	/*border: 1px solid #DDDDDD !important;*/
+	padding: 5px !important;
+	position: relative;
+	z-index: 1 !important;
+}
+#search_title{
+	background: none repeat scroll 0 0 transparent !important;
+	border: 0px !important;
+	border-collapse: collapse !important;
+	color: #000000;
+	font: 12px Arial,Helvetica,Tahoma,Verdana,Sans-Serif !important;
+	height: auto;
+	margin: 0 !important;
+	text-align: left !important;
+	text-decoration: none !important;
+	vertical-align: baseline !important;
+	white-space: nowrap !important;
+	width: auto;
+	-moz-user-select: none !important;
+	border-bottom: 1px solid #EEEEEE !important;
+	cursor: move !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+	padding: 3px 3px 8px !important;
+	position: relative;
+}
+.search_loader_img{
+	-moz-user-select: none !important;
+	background-image: url("ajax-loader.gif") !important;
+	position: relative !important;
+	height: 16px !important;
+	width: 16px !important;
+}
+#search_overlay_header, #search_overlay_footer{
+	height: 26px;
+	text-align: right !important;
+	margin-top:4px !important;
+}
+#search_overlay_ui{
+	display: inline-table;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.search_overlay_ui_col{
+	width:100%;
+}
+.search_overlay_ui_row_first,.search_overlay_ui_row_last{
+	vertical-align: middle !important;
+}
+#search_input{
+	-moz-border-radius: 0px !important;
+	width:100% !important;
+	/*height:12px !important;*/
+	border:1px solid #EEEEEE !important;
+	background-color: #FFFFFF !important;
+	border-collapse: separate !important;
+	cursor: default !important;
+	padding: 3px 0 !important;
+	text-align: center !important;
+	color:#9E9E9E;
+}
+#search_results_table{
+	margin-top:4px !important;
+	overflow: auto !important;
+	overflow-x:hidden !important;
+	padding: 5px !important;
+}
+#search_results_wrapper{
+	-moz-border-radius-bottomleft: 5px !important;
+	-moz-border-radius-bottomright: 5px !important;
+	margin-top: 10px !important;
+	padding-top: 5px !important;
+	background-color: #EBEBEB !important;
+	overflow: auto !important;
+	padding: 5px !important;
+}
+#search_results_element{
+	overflow: auto !important;
+	height: 300px;
+	width: 610px;
+	border-style: solid solid none !important;
+}
+#search_results{
+	border:0px !important;
+	width: 100% !important;
+	margin: auto !important;
+}
+#search_results td, #search_results tr {
+	/*border:1px solid #EEEEEE !important;*/
+	border:0px !important;
+	overflow:auto !important;
+}
+#search_results td .title {
+	/*color:blue;*/
+	font-size:100% !important;
+	/*text-decoration: underline !important;*/
+}
+.search_results_result{
+	height:96px;
+	width:100%;
+	-moz-border-radius:5px !important;
+	background: url("sprites.png") repeat-x scroll 0 -1950px #D3D3D3 !important;
+	margin-bottom:5px !important;
+	cursor:pointer !important;
+}
+.search_results_result:hover{
+	background: url("sprites.png") repeat-x scroll 0 -1950px #BBBEBB !important;
+}
+#search_close_button{
+	-moz-user-select: none !important;
+	cursor: pointer !important;
+	display : block !important;
+	position: absolute;
+	text-align: center !important;
+	top: 5px !important;
+	width: 20px;
+	right: 10px !important;
+}
+.search_overlay_button{
+	height:15px !important;
+	width:100%;
+	-moz-user-select: none !important;
+	/*background: url("sprites.png") repeat-x scroll 0 -1143px transparent !important;*/
+	background: url("sprites.png") repeat-x scroll 0 -1950px #60F200 !important;
+	margin-top:2px !important;
+	border-collapse: separate !important;
+	cursor: pointer !important;
+	padding: 4px 0px 4px !important;
+	text-align: center !important;
+}
+.search_overlay_button:hover,
+.search_overlay_button:focus,
+.search_overlay_button:active{
+	/*background-position: 0 -1179px !important;*/
+	background-color: orange !important;
+}
+.search_overlay_button_cancel{
+	/*background-position: 0 -1104px !important;*/
+	background-color: #F20000 !important;
+}
+.search_overlay_button_more{
+	/*background-position: 0 -1068px !important;*/
+	background-color: #0028F2 !important;
+}
+.search_overlay_button_right{
+	-moz-border-radius: 0px 5px 5px 0px !important;
+}
+.search_overlay_button_left{
+	-moz-border-radius: 5px 0px 0px 5px !important;
+}
+.search_overlay_button_span{
+	background: url("sprites.png") no-repeat scroll right -1219px transparent !important;
+	text-align: center !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	color: #222222;
+	cursor: pointer !important;
+	display: inline-block;
+	min-width: 60px;
+	height: 15px;
+	padding: 2px 10px !important;
+}
+.search_overlay_button_span_cancel{
+	background: url("sprites.png") no-repeat scroll right -1245px transparent !important;
+}
+.search_overlay_button_span_close{
+	padding : 0px !important;
+	min-width : 20px !important;
+}
